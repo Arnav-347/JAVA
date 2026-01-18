@@ -11,8 +11,9 @@ public class Hypotenuse {
         b=scanner.nextDouble();
 
         c=Math.sqrt(Math.pow(a,2) + Math.pow(b,2));
-        // System.out.println("HYPOTENUSE of triangle is: " + c + " units");
-        System.out.print("c=" + c + " units");
+        System.out.println("HYPOTENUSE of triangle is: " + c + " units");
+        // System.out.println("c=" + c + " units");
         scanner.close();
     }
 }
+
